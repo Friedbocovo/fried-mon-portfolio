@@ -1,0 +1,80 @@
+export const personalInfo = {
+  firstName: 'Fried',
+  lastName: 'BOCOVO',
+  fullName: 'Fried BOCOVO',
+  title: 'Frontend Developer & Designer UX/UI & Graphiste',
+  roles: [
+    'Frontend Developer',
+    'Designer UX/UI',
+    'Graphiste',
+    'Web Designer',
+    'Future Ingénieur Réseaux et internet',
+  ],
+  email: 'friedbocovo03@email.com',
+  github: 'https://github.com/Friedbocovo',
+  linkedin: 'https://www.linkedin.com/in/fried-bocovo-97a051291?',
+  whatsapp: 'https://wa.me/2290152353484',
+  location: 'Abomey Calavi',
+  bio: 'Passionné par la création d\'expériences digitales qui allient esthétique et performance. Je conçois et développe des interfaces modernes qui captivent les utilisateurs et résolvent de vrais problèmes.',
+  longBio: 'Créatif digital polyvalent, j\’évolue à la croisée du développement frontend, du design UX\UI et de la communication visuelle. Mon approche consiste à concevoir des produits numériques qui ne sont pas seulement esthétiques, mais aussi intuitifs et mémorables.\n\nActuellement en formation d\’ingénieur en Génie Informatique et Télécommunications à l\’EPAC, je me spécialise en Réseaux et Internet. Cette expertise technique me permet de maîtriser l\’architecture des systèmes et les mécanismes de communication de données. Comprendre comment les réseaux structurent le web me donne une vision globale indispensable pour bâtir des infrastructures numériques performantes, sécurisées et scalables.\n\nMoi, Bocovo Fried, je nourris également une passion pour l\’électronique. Cet intérêt pour le matériel et les systèmes connectés complète mon profil, me permettant d\’explorer les interactions entre les couches matérielles et logicielles.\n\nCurieux et rigoureux, mon objectif est d\’allier l\’exigence technique de l\’ingénierie réseaux à la finesse du design pour concevoir des projets innovants qui apportent une réelle valeur ajoutée aux utilisateurs.',
+  quote: '"Le design, ce n\'est pas juste comment ça a l\'air. C\'est comment ça fonctionne." — Steve Jobs',
+  photo: 'photo.png',
+  logo: 'logo.png',
+  stats: [
+    { value: '10+', label: 'Projets Réalisés' },
+    { value: '5+', label: 'Années d\'Experience' },
+    { value: '100%', label: 'Passion' },
+    { value: '∞', label: 'Curiosité' },
+  ],
+};
+
+export const projects = [
+  {
+    id: 1,
+    title: 'DigiLib',
+    description: 'Une bibliothèque numérique mettant à votre disposition des milliers d\'ouvrages classés par thématiques.',
+    image: '1.png',
+    technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Supabase'],
+    liveUrl: 'https://digilib-gamma.vercel.app/',
+    githubUrl: '#',
+    featured: false,
+    status: 'done',
+    progress: 60,         
+
+  },
+  {
+    id: 2,
+    title: 'Supermarcher autour de vous',
+    description: 'Une interface légère et rapide pour géolocaliser instantanément les enseignes autour de vous, idéale pour trouver le magasin le plus proche.',
+    image: '2.png',
+    technologies: ['Html', 'Css', 'JavaScript'],
+    liveUrl: 'https://app-supermacher-around-me.vercel.app/',
+    githubUrl: '#',
+    featured: false,
+     status: 'done'
+  },
+  {
+    id: 3,
+    title: 'Bénin Freelance',
+    description: 'une plateforme web permettant de mettre en relation des prestataires de services locaux avec des clients au Bénin, de manière simple, rapide et fiable.',
+    image: '3.png',
+    technologies: ['Html', 'Tailwincss', 'Php', 'Laravel', 'MySQL'],
+    liveUrl: '#',
+    githubUrl: '#',
+    featured: false,
+     status: 'inprogress',
+    progress: 30, 
+  },
+  {
+    id: 4,
+    title: 'Fyby',
+    description: 'Une plateforme de commerce en lige',
+    image: '4.png',
+    technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Vite', 'Firebase', 'Contentful'],
+    liveUrl: 'https://fyby.vercel.app/',
+    githubUrl: '#',
+    featured: false,
+  },
+
+
+];
