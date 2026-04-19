@@ -240,7 +240,7 @@ export default function About() {
                 }}
               >
                 <img
-                  src="/workspace.jpg"
+                  src="public/workspace.jpg"
                   alt="Environnement de travail créatif"
                   className="w-full h-full object-cover"
                 />
