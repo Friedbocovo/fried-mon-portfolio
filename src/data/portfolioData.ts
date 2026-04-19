@@ -18,7 +18,7 @@ export const personalInfo = {
   bio: 'Passionné par la création d\'expériences digitales qui allient esthétique et performance. Je conçois et développe des interfaces modernes qui captivent les utilisateurs et résolvent de vrais problèmes.',
   longBio: 'Créatif digital polyvalent, j\’évolue à la croisée du développement frontend, du design UX\UI et de la communication visuelle. Mon approche consiste à concevoir des produits numériques qui ne sont pas seulement esthétiques, mais aussi intuitifs et mémorables.\n\nActuellement en formation d\’ingénieur en Génie Informatique et Télécommunications à l\’EPAC, je me spécialise en Réseaux et Internet. Cette expertise technique me permet de maîtriser l\’architecture des systèmes et les mécanismes de communication de données. Comprendre comment les réseaux structurent le web me donne une vision globale indispensable pour bâtir des infrastructures numériques performantes, sécurisées et scalables.\n\nMoi, Bocovo Fried, je nourris également une passion pour l\’électronique. Cet intérêt pour le matériel et les systèmes connectés complète mon profil, me permettant d\’explorer les interactions entre les couches matérielles et logicielles.\n\nCurieux et rigoureux, mon objectif est d\’allier l\’exigence technique de l\’ingénierie réseaux à la finesse du design pour concevoir des projets innovants qui apportent une réelle valeur ajoutée aux utilisateurs.',
   quote: '"Le design, ce n\'est pas juste comment ça a l\'air. C\'est comment ça fonctionne." — Steve Jobs',
-  photo: 'photo.png',
+  photo: 'photo.avif',
   logo: 'logo.png',
   stats: [
     { value: '10+', label: 'Projets Réalisés' },
@@ -33,7 +33,7 @@ export const projects = [
     id: 1,
     title: 'DigiLib',
     description: 'Une bibliothèque numérique mettant à votre disposition des milliers d\'ouvrages classés par thématiques.',
-    image: '1.png',
+    image: '1.avif',
     technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Supabase'],
     liveUrl: 'https://digilib-gamma.vercel.app/',
     githubUrl: '#',
